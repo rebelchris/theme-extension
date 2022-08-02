@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "version": "2.6",
+  "name": "daily dev tips theme",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame-background.png",
+      "theme_frame_overlay": "images/frame-background.png",
+      "theme_tab_background": "images/tab-background.png",
+      "theme_ntp_background" : "images/ntp-background.png"
+    },
+    "colors" : {
+      "toolbar" : [0, 185, 232],
+      "tab_background_text": [255, 255, 255],
+      "tab_text": [255, 255, 255],
+      "bookmark_text": [255,255,255],
+      "ntp_text" : [218, 0, 96],
+      "ntp_link" : [218, 0, 96],
+      "ntp_section" : [255, 255, 255],
+      "ntp_background": [255, 255, 255]
+    },
+    "tints" : {
+      "buttons" : [1, 1, 1]
+    },
+    "properties" : {
+      "ntp_logo_alternate": 0,
+      "ntp_background_alignment" : "center"
+    }
+  }
+}
